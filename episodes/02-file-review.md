@@ -22,7 +22,7 @@ File review is an important part of the Data Quality Review (DQR) covered in the
 
 Data reuse relies on clearly identified, functional, and long-term accessible files. Tasks associated with file review include inspecting the files and identifying file format-specific curation tasks, creating persistent identifiers and metadata, and creating preservation file formats. Preservation-oriented steps, such as implementing a migration strategy for file formats, and ongoing bit monitoring, are also part of file review. 
 
-File review is especially important as a preparation for packaging the files for deposit into a trustworthy repository for long-term access and sharing (see [Lesson 4: Compendium Packaging]()).
+File review is especially important as a preparation for packaging the files for deposit into a trustworthy repository for long-term access and sharing (see [Lesson 4: Compendium Packaging](https://curating4reproducibility.org/cure-carpentry-04-packaging/)).
 
 ## File Inspection
 
@@ -41,7 +41,7 @@ File inspection tasks may include the following:
 
 Some aspects of file review may vary based on the file format or subject domain. The [Data Curation Network Primers](https://hdl.handle.net/11299/202810) have helpful curation process recommendations for particular file formats.
 
-> ## Data Repository Metadata
+> ## Spotlight: Data Repository Metadata
 >
 > Data curation involves the creation of metadata at both the file level and the study level to facilitate further data quality review and discoverability. Required metadata fields vary by repository, but should be mapped to standard metadata schemas for preservation and interoperability.
 >
@@ -67,18 +67,17 @@ Verify and enhance metadata associated with each individual file. Metadata-relat
   - Checksum
   - Last verified date
 
-> ## Fixity in Digital Preservation
+> ## Spotlight: Fixity in Digital Preservation
 >
 > Fixity, in the preservation sense, means the assurance that a digital file has remained unchanged, i.e. fixed. Fixity helps establish trust between data producers, stewards (e.g. repositories and archives), and users.
 >
 > Fixity checking is the process of verifying that a digital object has not been altered or corrupted. A checksum on a file is a ‘digital fingerprint’ used to detect if the contents of a file have changed.  Checksums can be generated using a range of readily available and open source tools.
 >
 > See more information here: 
-> - https://www.dpconline.org/blog/wdpd/jmitcham-wdpd21
-> - https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums  
-> - https://blogs.loc.gov/thesignal/files/2014/02/
-> - NDSA-Checking-your-digital-content-Draft-2-5-14.pdf 
-> - https://en.wikipedia.org/wiki/Checksum
+> - [https://www.dpconline.org/blog/wdpd/jmitcham-wdpd21](https://www.dpconline.org/blog/wdpd/jmitcham-wdpd21)
+> - [https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums](https://www.dpconline.org/handbook/technical-solutions-and-tools/fixity-and-checksums) 
+> - [https://blogs.loc.gov/thesignal/files/2014/02/](https://blogs.loc.gov/thesignal/files/2014/02/)
+> - [https://en.wikipedia.org/wiki/Checksum](https://en.wikipedia.org/wiki/Checksum)
 {: .callout}
 
 ### Code File Metadata
@@ -92,7 +91,7 @@ Curators may want to enhance the metadata for code files, which includes some sp
 - Character encoding
 - Software, version, and operating system information
 
-> ## Software Metadata
+> ## Spotight: Software Metadata
 >
 > If the research compendium includes software, curators may add or enhance associated metadata. 
 > The Software Metadata Recommended Format Guide (SMRF) summarizes and defines the
@@ -106,7 +105,7 @@ software materials in the context of a wide range of collections.
 
 Files that are not in a preservation format (e.g., .csv, .txt, .pdf), and do not have a built-in converter, should be manually converted to a preservation format. Transforming files into non-proprietary formats facilitates potential reuse and ensures the files remain accessible long term. For files from proprietary statistical software (e.g. .dta, .sav, .do, and others), both a converted preservation format file and the original file may be included in the reproducibility package.
 
-> ## Preservation Formats
+> ## Spotlight: Preservation Formats
 >
 > Some resources for identifying recommended preservation formats:
 > - Library of Congress Recommended Formats
@@ -144,11 +143,11 @@ Verify and enhance metadata to be applied at the level of the study. Metadata-re
 
 Reviewing deposited research files quality can seem abstract when thinking about it hypothetically. The exercise below is tailored to further our understanding of file review by spending some time with example files. The exercise asks you to identify problems with the files and suggest resolutions. The Solution copy of the example files shows ways of resolving the issues.
 
-> ## File Review Challenge
+> ## Exercise: File Review Challenge
 > 
 > Review the example files for inclusion in a research compendium. Make recommendations to resolve any issues. In real life, you would communicate with the researchers to resolve any missing files or problematic issues you found.
 >
-> - The depositors submitted a file list document: 2018-Kim-Documentation.docx Are all files present?
+> - The depositors submitted a file list document: 2018-Kim-Documentation.docx. Are all files present?
 > - The study mnemonic “2018-Kim” will be used for this example. Do the files follow the appropriate naming convention?
 > - Do all the files open? If not what is the problem?
 > - Record file sizes. Does anything look off?
