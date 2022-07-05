@@ -21,13 +21,13 @@ In this episode, we unpack the Data Quality Review Framework, focusing on Docume
 
 ## Documentation Review in Practice
 
-Documentation supporting the use of data must be comprehensive enough to enable others to explore the resource fully, and detailed enough to allow someone who has not been involved in the data creation process to understand how the data were collected ([Digital Preservation Coalition, 2008, p. 25]()).
+Documentation supporting the use of data must be comprehensive enough to enable others to explore the resource fully, and detailed enough to allow someone who has not been involved in the data creation process to understand how the data were collected ([Digital Preservation Coalition, 2008, p. 25](http://127.0.0.1:4000/03-doc-review/index.html)).
 
 This review step includes a review of the contextual documentation about the files, an assessment of whether the descriptive information about the files and about methods and sampling is comprehensive and sufficient for independent informed reuse, and the application of corrective actions where this information is missing, including creating documentation compliant with community standards and linking all other known related research products (e.g., publications, registries, grants) ([Peer et al., 2014](https://doi.org/10.2218/ijdc.v9i1.317)).
 
 ## Documentation Requirements
 
-In addition to metadata, covered in [Episode 2: File Review](), robust stand-alone documentation is needed. This includes a README File, a Codebook or Data Dictionary, as well as other contextual Documentation.
+In addition to metadata, covered in Episode 2: File Review, robust stand-alone documentation is needed. This includes a README File, a Codebook or Data Dictionary, as well as other contextual Documentation.
 
 > ## Documentation for Reproducibility
 >
@@ -119,7 +119,7 @@ Some examples of Data Availability Statements: [Taylor and Francis](https://auth
 
 Data Availability Statements can seem abstract when thinking about them hypothetically. This exercise is tailored to further our understanding of these statements by spending writing brief ones for different scenarios.
 
-> ## Data Availability Statement Exercise
+> ## Exercise: Data Availability Statement Exercise
 >
 > Write a data availability statement for the following: 
 >

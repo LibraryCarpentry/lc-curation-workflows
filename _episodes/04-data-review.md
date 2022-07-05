@@ -34,7 +34,7 @@ Confirm that all variables in the data files contain variable and value labels. 
 
 Confirm that the variable and value labels are consistent across metadata and other associated files. For each variable, review the documents for metadata about that variable and ensure the metadata exists and is consistent. Confirm also that any recoded or transformed variables are properly described in metadata and other associated files.
 
-> ## Variables and Values Exercise
+> ## Exercise: Variables and Values
 >
 > Review the sample questionnaire, codebook, and data file.
 >
@@ -69,7 +69,7 @@ It can help here to compare a sample of the data to any original data files, inc
 
 Familiarizing oneself with common errors is a strategic method that can be integrated into workflow processes. Understanding key areas to concentrate on can offset some of the more laborious parts of the work. The more we do, the more confident we can become which can lead to more efficiency. Let’s get more familiar by engaging in the next challenge. 
 
-> ## Dataset Errors Exercise
+> ## Exercise: Dataset Errors
 >
 > Review the sample study article, codebook, and data file.
 >
@@ -100,7 +100,7 @@ Direct identifiers are variables that point explicitly to particular individuals
 
 Indirect identifiers are variables that can be used together or in conjunction with other information to identify individual respondents. Examples include detailed geographic information, exact job, office or organization titles, birthplaces, and exact event dates. Indirect identifiers may be re-coded in various ways, such as converting dates to time intervals, and geographic codes to broader levels of geography.
 
-> ## Removing PII
+> ## Spotlight: Removing PII
 > Remove or anonymize any personally identifiable information in the data files. 
 >
 > Removing PII from a data file may be a manual process, or could involve either using statistical software (e.g., Stata, R) to edit or write new code, or running a program/script that deletes or otherwise transforms these variables and writes out a new revised version of the data file, and adding the resulting data file to the catalog record (as well as any new code file).
@@ -108,16 +108,16 @@ Indirect identifiers are variables that can be used together or in conjunction w
 
 There are times when data authors are too close to their data and not able to easily see PII when it is time to share their data widely. The following challenge helps us think about how the nuances of a variable can lead to PII and the workarounds that curators can assist with to allow for sharing the data. Knowing these better practices and advocating for  them with data authors will allow data to be shared which may not have been if the data was not de-identified.
 
-> ## Anonymizing Data Exercise
+> ## Exercise: Anonymizing Data
 >
 > Review the example data file: 2018-Kim-dataset_final.csv.
 >
-> - Which information is counts as personally identifiable information (PII)?
+> - Which information counts as personally identifiable information (PII)?
 > - How would you anonymize the PII in this file?
 >
 > > ## Solution
 > >
-> > Which information is counts as PII in the example file?
+> > Which information counts as PII in the example file?
 > > - Name, Address
 > >
 > > How would you anonymize any personally identifiable information in the example data file?

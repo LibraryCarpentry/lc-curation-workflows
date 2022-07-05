@@ -30,7 +30,7 @@ Quality data might be conceived as accurate, complete, or timely. Judgments abou
 
 Assessing quality can seem abstract when thinking about it as a list or hypothetically. The challenges below are tailored to further our understanding of data quality by spending some time with the data quality dimensions.  The challenge relies on data quality categorizations defined by [Wang and Strong (1996)](http://mitiq.mit.edu/Documents/Publications/TDQMpub/14_Beyond_Accuracy.pdf) that include *Intrinsic*, *Contextual*, *Representational*, and *Accessible*.
 
-> ## Assessing Quality: Part 1
+> ## Exercise: Assessing Quality: Part 1
 > This group task is an opportunity for you to think about the different dimensions of data quality and the skills that may be required to assess quality. Instructor note: Consider using a whiteboard or online tool such as Google Jam Board, Etherpad, or similar for this group activity.
 >
 > - Start by getting into pairs and review the quality dimensions. 
@@ -50,7 +50,7 @@ Assessing quality can seem abstract when thinking about it as a list or hypothet
 
 It can be daunting, all the skills needed to do all this work and its many layers. Knowing what we don’t know can be incredibly liberating. Seeking out collaborators if the required skills are not part of your department can help create important relationships and remove the burden from others. Take some time to think about what skills will be needed to do this work and who you can collaborate with on your campus.
 
-> ## Assessing Quality: Part 2
+> ## Exercise: Assessing Quality: Part 2
 >
 > This group task is an opportunity for you to think about the different dimensions of data quality and the skills that may be required to assess quality. 
 >
@@ -79,7 +79,7 @@ The DQR framework focuses on the digital objects that comprise computation-based
 
 The DQR combines gold-standard data curation practices and independent reproduction of computation that underlies reported scientific claims. 
 
-> ## The DQR and Other Curation Frameworks
+> ## Spotlight: The DQR and Other Curation Frameworks
 >
 > The Data Quality Review framework specifically targets computational reproducibility, but it can be used alongside other frameworks, checklists, and tools that support curation, such as the [CURATED](https://datacurationnetwork.org/outputs/workflows/) framework developed by the [Data Curation Network (DCN)](https://datacurationnetwork.org/).
 {: .callout}
@@ -89,16 +89,16 @@ The DQR is a process whereby data and associated files are assessed and required
 
 The DQR involves a review of the files in the compendium, of the documentation that accompanies the files, and in-depth review of the data and the code (see separate episodes in this lesson for each). These review categories and their associated tasks do not necessarily happen in a linear fashion.
 
-> ## Committing to Data Quality Review
+> ## Spotlight: Committing to Data Quality Review
 >
-> An article published in the International Journal of Digital Curation in 2014 explains what a data quality review entails, who is positioned to carry out such a review, and what it means to commit to such a review. The article examines the review practices of three domain-specific data archives and three general data repositories, finding that general data repositories fall short of full data quality review and that long-standing data archives, particularly in the social sciences, implement many review activities, but typically not code review. 
+> An article published in the *International Journal of Digital Curation* in 2014 explains what a data quality review entails, who is positioned to carry out such a review, and what it means to commit to such a review. The article examines the review practices of three domain-specific data archives and three general data repositories, finding that general data repositories fall short of full data quality review and that long-standing data archives, particularly in the social sciences, implement many review activities, but typically not code review. 
 >
 >The article argues that commitment to data quality review is a community effort, involving researchers, academic libraries, scholarly journals, and others: “the stakeholders and caretakers of scientific materials, such as data and code, must share the responsibility of meeting the challenges of data quality review in order to ensure that data, documentation, and code are of the highest quality so as to be independently understandable for informed reuse, in the long term. The commitment to data quality review, however, has to involve the entire research community.”
 >
 > Peer, L., Green, A., & Stephenson, E. (2014). Committing to data quality review. *International Journal of Digital Curation, 9*(1). [http://doi.org/10.2218/ijdc.v9i1.317](http://doi.org/10.2218/ijdc.v9i1.317) 
 {: .callout}
 
-> ## Food for Thought About Review
+> ## Discussion: Food for Thought About Review
 > 
 > Roger Peng, an advocate of reproducible research, argues that articles that have passed the reproducibility review ‘convey the idea that a knowledgeable individual has reviewed the code and data and was capable of producing the results claimed by the author. In cases in which questionable results are obtained, reproducibility is critical to tracking down the “bugs” of computational science.’ 
 >
@@ -106,11 +106,11 @@ The DQR involves a review of the files in the compendium, of the documentation t
 >
 > Questions for discussion:
 >
-> - Is this something that researchers want?
-> - What happens when you find a mistake?
-> - Who is in the best position to do such a review?
-> - How does the labor of review figure into the research process as a whole, and authorship in particular?
-> - How do disciplinary norms play into this?
+> - **Is this something that researchers want?**
+> - **What happens when you find a mistake?**
+> - **Who is in the best position to do such a review?**
+> - **How does the labor of review figure into the research process as a whole, and authorship in particular?**
+> - **How do disciplinary norms play into this?**
 {: .discussion}
 
 ## The Object of Review: The Research Compendium
@@ -127,7 +127,7 @@ Other materials that may be included:
 - Comparison output 
 - Treatment materials 
 
-> ## The Whole is Greater Than the Sum of Its Parts
+> ## Spotlight: The Whole is Greater Than the Sum of Its Parts
 >
 > Do we care about the package as a whole or about its constituent parts? That depends on what you want to do with it. Some users may want to use or examine only one component of the reproducibility package, the data, for example. Others prefer a frictionless process whereby they can test the package as a whole, for example, via ‘Push-Button Replication’ (see this project from 3ie: [https://www.3ieimpact.org/our-expertise/replication/push-button-replication](https://www.3ieimpact.org/our-expertise/replication/push-button-replication)).
 {: .callout}
@@ -137,20 +137,20 @@ The review process is often iterative, not linear. That is, data review may requ
 
 As a curator, you need to be able to work iteratively and to track your process. You may also likely need to interact with authors to resolve any lingering or unresolved issues. 
 
-> ## Curation is Not a Linear Process
+> ## Spotlight: Curation is Not a Linear Process
 > 
 > It is important to note that curation work in general, and curation frameworks in particular, do not necessarily prescribe a strict workflow or sequence. Procedures may vary depending on the materials (e.g., the data), on curator skills, on policy, on data creator feedback, and more. The key is that all curation activities should be performed before a review is complete.
 {: .callout}
 
 ### Keeping Track of the Review and Communication with the Researcher
 
-There will be some communication with authors about missing information. Organizations that take on DQR should think through some key issues such as, 
+There will be some communication with authors about missing information. Organizations that take on DQR should think through some key issues such as: 
 
 - What are the mechanisms for keeping track of where you are in the review? Any problems you find before accepting the submission?
 - How to set standards for what to send back to researchers and what to accept?
 - How are we handling communication with researchers? How to handle delayed responses from researchers?
 
-> ## Curation Process Management
+> ## Spotlight: Curation Process Management
 >
 > The curation workflow has many steps and can involve several stakeholders. Managing the curation workflow and keeping track of curation activities can quickly become challenging. A few recent approaches attempt to address the challenges of managing and tracking the curation process, which will also help standardize the process. Here are some examples:
 >

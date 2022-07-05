@@ -16,7 +16,7 @@ keypoints:
 
 In this episode, we unpack the Data Quality Review Framework, focusing on Code Review. Please note that Episodes 2-4 (File, Documentation, and Data Review) in this lesson may include material familiar to many data curators. In this Episode 5 on Code Review, we introduce the additional curation activities that specifically involve code.  The work done in Lesson 2 can be considered the pre-work necessary to continue the work in this Episode. 
 
-[Lesson 3: Reproducibility Assessment]() is entirely dedicated to the practice of code review in support of reproducible research.    
+[Lesson 3: Reproducibility Assessment](http://curating4reproducibility.org/cure-carpentry-03-assessing/) is entirely dedicated to the practice of code review in support of reproducible research.    
 
 ## What is Code?
 
@@ -81,7 +81,7 @@ The term code review comes from software development, where it is common and int
 
 In the context of curating for reproducibility, the primary reason to review code is that non-reproducibility is a threat to the scholarly record. It is not uncommon in labs that analysis scripts or software are written by a postdoc or graduate student. Often, the code is elaborated over time and can become quite cumbersome (e.g., over 30K lines of code in multiple files) and complicated such that only the original postdoc can make changes and add features. It is inevitable that research teams grow and change and original authors cannot be reliable sources of information or explanations when something goes wrong.
 
-IMAGE
+![Tweet by Jess Vickruck about annotating code]({{ page.root }}/fig/05-tweet.jpg "Tweet by Jess Vickruck about annotating code")
 
 Another reason is methods transparency: Transparent sharing of data and results is the first fundamental step to open research. How the data are analyzed to reach results should be just as transparent. Code not only performs operations on the data, it also serves as a log of analytical activities, allowing future users to understand any unintentional errors or mistakes.
 
@@ -91,7 +91,7 @@ In addition, considering that, in general, code is read more often than it's wri
 
 “Similar to data files, code files should also be subject to examination and potential enhancement to provide transparency and enable future informed reuse. A data quality review requires that code is executed and checked, that an assessment is made about the purpose of the code (e.g., recoding variables, manipulating or testing data, testing hypotheses, analysis), and about whether that goal is accomplished.” ([Peer et al., 2014](https://doi.org/10.2218/ijdc.v9i1.317))
 
-> ## Who Should Conduct a Code Review?
+> ## Discussion: Who Should Conduct a Code Review?
 >
 > Before turning to the practice of code review, it might be a good time to pause and ask, 
 >
@@ -105,6 +105,6 @@ In addition, considering that, in general, code is read more often than it's wri
 > 2. Will peer code review discourage scientists from sharing code?
 {: .discussion}
 
-[Lesson 3: Reproducibility Assessment]() of the Curating for Reproducibilty Curriculum is entirely dedicated to the practice of code review in support of reproducible research.
+[Lesson 3: Reproducibility Assessment](http://curating4reproducibility.org/cure-carpentry-03-assessing/) of the Curating for Reproducibilty Curriculum is entirely dedicated to the practice of code review in support of reproducible research.
 
 {% include links.md %}
