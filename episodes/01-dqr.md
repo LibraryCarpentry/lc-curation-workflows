@@ -16,41 +16,17 @@ keypoints:
 - "The Data Quality Review (DQR) framework is a set of recommended curation activities that promote the reproducibility of the research."
 - "DQR involves a review of the files, the documentation, the data, and the code being curated."
 ---
-In [Lesson 1: Introducing Data Curation for Reproducibility](), we discussed data curation for reproducibility and some of its challenges. In this lesson, we will look more deeply at the relationship between curation and quality, unpack the Data Quality Review Framework, and get familiar with the idea of a reproducibility package or research compendium.
-
-Please note that Episodes 2-4 in this lesson (File, Documentation, and Data Review) may include material familiar to many data curators. In Episode 5, on Code Review, we introduce the additional curation activities that specifically involve code. [Lesson 3: Reproducibility Assessment]() is entirely dedicated to the practice of code review in support of reproducible research.   
+This episode continues the exploration of reproducibility standards taught in [Lesson 1: Introduction to Curating for Reproducibility](https://curating4reproducibility.org/cure-carpentry-01-intro/), but with a focus on quality criteria and the curation activities that can ensure that research compendia meet those criteria.  Some of these curation activities may be familiar to those with data management and curation experience. However, considering these activities with reproducibility in mind as the primary goal of curation offers a new perspective on the importance of each and every task in the curation workflow, no matter how seemingly trivial. For curation activities that may be unfamiliar, thinking about how they fit into the context of reproducibility helps to appreciate the additional effort taken to obtain the knowledge and skills necessary to perform them. 
 
 ## What is Data Quality?
 
-Great investment is often made to collect data for scientific research. It is essential that the data are of high quality so future users can trust and use the data. 
+Great investment is often made to collect data for scientific research. It is essential that the data are of high quality so future users can trust and use the data. But what does it mean for data to be of "high quality"?
 
-Quality data might be conceived as accurate, complete, or timely. Judgments about the quality of data are often tied to specific goals, such as authenticity, openness, transparency, and trust. Different stakeholders may prioritize different aspects of data quality, which may be in conflict with each other. For example, timeliness may mean that accuracy is compromised. 
+Quality data might be conceived as accurate, complete, or timely. Judgments about the quality of data are often tied to specific goals, such as authenticity, openness, transparency, and trust. Different stakeholders may prioritize different aspects of data quality, which may be in conflict with each other. For example, in the rush to produce and disseminate data quickly so that they meet timeliness requirements, the accuracy of the data may be compromised due to the lack of time needed to throughly inspect the data for errors.
 
-> ## Dimensions of Data Quality
->
-> (Instructor will prepare sets of index cards for each dimension)
->
-> 1. BELIEVABILITY: The extent to which data are accepted or regarded as true, real, and credible. 
-> 2. VALUE-ADDED: The extent to which data are beneficial and provide advantages from their use.  
-> 3. RELEVANCY: The extent to which data are applicable and helpful for the task at hand.  
-> 4. ACCURACY: The extent to which data are correct, reliable, and certified free of error.  
-> 5. INTERPRETABILITY: The extent to which data are in appropriate language and units and the data definitions are clear. 
-> 6. EASE OF UNDERSTANDING: The extent to which data are clear without ambiguity and easily comprehended.  
-> 7. ACCESSIBILITY: The extent to which data are available or easily and quickly retrievable.  
-> 8. OBJECTIVITY: The extent to which data are unbiased (unprejudiced) and impartial.  
-> 9. TIMELINESS: The extent to which the age of the data is appropriate for the task at hand.  
-> 10. COMPLETENESS: The extent to which data are of sufficient breadth, depth, and scope for the task at hand.  
-> 11. TRACEABILITY: The extent to which data are well documented, verifiable, and easily attributed to a source.  
-> 12. REPUTATION: The extent to which data are trusted or highly regarded in terms of their source or content.  
-> 13. REPRESENTATIONAL CONSISTENCY: The extent to which data are always presented in the same format and are compatible with previous data.  
-> 14. COST-EFFECTIVENESS: The extent to which the cost of collecting appropriate data is reasonable.  
-> 15. EASE OF OPERATION: The extent to which data are easily managed and manipulated (i.e., updated, moved, aggregated, reproduced, customized).  
-> 16. VARIETY OF DATA AND DATA SOURCES: The extent to which data are available from several differing data sources.  
-> 17. CONCISE: The extent to which data are compactly represented without being overwhelming (i.e., brief in presentation, yet complete and to the point).  
-> 18. ACCESS SECURITY: The extent to which access to data can be restricted and hence kept secure.  
-> 19. APPROPRIATE AMOUNT OF DATA: The extent to which the quantity or volume of available data is appropriate.  
-> 20. FLEXIBILITY: The extent to which data are expandable, adaptable, and easily applied to other needs.
-{: .callout} 
+[Wang and Strong (1996)](http://mitiq.mit.edu/Documents/Publications/TDQMpub/14_Beyond_Accuracy.pdf) defined data quality as having several dimensions, based on surveys of data users who were asked to select from a list of terms those that they perceived to be attributes of data quality.  A follow up survey asked data users to then rank those attributes in order of importance to them.  Below is the resulting list of 15 data quality attributes grouped into four primary categories.
+
+![Wang and Strong's dimensions of data quality]({{ page.root }}/fig/01-quality.png "Dimensions of data quality")
 
 Assessing quality can seem abstract when thinking about it as a list or hypothetically. The challenges below are tailored to further our understanding of data quality by spending some time with the data quality dimensions.  The challenge relies on data quality categorizations defined by [Wang and Strong (1996)](http://mitiq.mit.edu/Documents/Publications/TDQMpub/14_Beyond_Accuracy.pdf) that include *Intrinsic*, *Contextual*, *Representational*, and *Accessible*.
 
@@ -90,13 +66,16 @@ It can be daunting, all the skills needed to do all this work and its many layer
 > {: .solution}
 {: .challenge}
 
-## The Data Quality Reivew (DQR) Framework
+## The Data Quality Review (DQR) Framework
 
 In the context of curation, it is useful to think about data quality not as much as attributes of the data, but as a “set of measures that determine if data are independently understandable for informed reuse” ([Peer et al., 2014](https://doi.org/10.2218/ijdc.v9i1.317)).
 
 A data quality review (DQR) is a framework for organizing curation activities in the context of reproducible research. The review activities included in the DQR represent the recommended curation activities that enable a particular reuse of digital materials: The reproduction of reported results using the original materials.
 
 The DQR framework focuses on the digital objects that comprise computation-based scientific claims and, importantly, their interaction. Unlike data curation, which focuses on the dataset as a digital object, DQR is applied to the computation process, and its component parts, that generates the scientific claims. 
+
+![Data Quality Review framework components]({{ page.root }}/fig/01-dqr.png "Data Quality Review components")
+
 
 The DQR combines gold-standard data curation practices and independent reproduction of computation that underlies reported scientific claims. 
 
