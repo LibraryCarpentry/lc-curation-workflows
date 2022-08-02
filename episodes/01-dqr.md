@@ -72,7 +72,7 @@ In the context of curation, it is useful to think about data quality not as much
 
 A data quality review (DQR) is a framework for organizing curation activities in the context of reproducible research. The review activities included in the DQR represent the recommended curation activities that enable a particular reuse of digital materials: The reproduction of reported results using the original materials.
 
-The DQR framework focuses on the digital objects that comprise computation-based scientific claims and, importantly, their interaction. Unlike data curation, which focuses on the dataset as a digital object, DQR is applied to the computation process, and its component parts, that generates the scientific claims. 
+The DQR framework focuses on the digital objects that comprise computation-based scientific claims and, importantly, their interaction. **Unlike data curation, which focuses on the dataset as a digital object, DQR is applied to the computation process, and its component parts, that generates the scientific claims.** 
 
 ![Data Quality Review framework components]({{ page.root }}/fig/01-dqr.png "Data Quality Review components")
 
