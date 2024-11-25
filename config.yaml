@@ -10,7 +10,7 @@
 # incubator: The Carpentries Incubator
 # Note that you can also use a custom carpentry type. For more info,
 # see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
-carpentry: 'cp'
+carpentry: 'lc'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
@@ -20,7 +20,7 @@ carpentry: 'cp'
 title: 'Curating for Reproducibility Workflows'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: 2022-06-20
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -33,7 +33,7 @@ life_cycle: 'pre-alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/curating4reproducibility/cure-carpentry-02-workflows'
+source: 'https://github.com/ucla-data-science-center/lc-cure-02'
 
 # Default branch of your lesson
 branch: 'main'
@@ -64,7 +64,7 @@ contact: 'team@carpentries.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - 01-dqr.md
 - 02-file-review.md
 - 03-doc-review.md
@@ -72,13 +72,13 @@ episodes:
 - 05-code-review.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
