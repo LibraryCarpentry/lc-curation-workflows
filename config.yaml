@@ -33,7 +33,7 @@ life_cycle: 'pre-alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/fishtree-attempt/cure-carpentry-02-workflows/'
+source: 'https://github.com/curating4reproducibility/cure-carpentry-02-workflows'
 
 # Default branch of your lesson
 branch: 'main'
@@ -87,7 +87,6 @@ profiles:
 
 
 carpentry_description: Lesson Description
-url: https://preview.carpentries.org/cure-carpentry-02-workflows
+url: 'https://curating4reproducibility.github.io/cure-carpentry-02-workflows'
 analytics: carpentries
 lang: en
-workbench-beta: yes
