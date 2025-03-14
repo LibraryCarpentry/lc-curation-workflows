@@ -1,41 +1,33 @@
-# FIXME Lesson title
+# Curation Workflows for Reproducibility
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+This lesson operationalizes reproducibility concepts by introducing the Data Quality Review framework. It outlines the curation activities that ensure data quality and reproducibility, serving as a guide for information professionals to implement reproducible research workflows.
 
-This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons.
+**Rendered Lesson:**  
+View the rendered lesson at: [https://LibraryCarpentry.github.io/lc-curation-workflows](https://LibraryCarpentry.github.io/lc-curation-workflows)
 
 ## Contributing
 
-We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
-questions, concerns, or experience any difficulties along the way.
-
-We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
-the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
-how to write new episodes.
-
-Please see the current list of [issues][FIXME] for ideas for contributing to this
-repository. For making your contribution, we use the GitHub flow, which is
-nicely explained in the chapter [Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
-by Scott Chacon.
-Look for the tag ![good\_first\_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
+We welcome your contributions! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to help improve this lesson.
 
 ## Maintainer(s)
 
-Current maintainers of this lesson are
+The maintainers of this lesson are:  
+- Thu-Mai Lewis Christian  
+- Florio Arguillas  
+- Limor Peer
 
-- FIXME
-- FIXME
-- FIXME
+## Acknowledgements
 
-## Authors
-
-A list of contributors to the lesson can be found in <AUTHORS>
+Special thanks to our contributors and The Carpentries community for inspiring and supporting the development of this lesson.
 
 ## Citation
 
-To cite this lesson, please consult with <CITATION>
+Please see the [CITATION.cff](CITATION.cff) file for complete citation information.
 
-[lesson-example]: https://carpentries.github.io/lesson-example
+## License
 
+This lesson is available under a [CC BY 4.0 license](LICENSE.md).
 
+## Contact
 
+For any questions or feedback, please contact the maintainers at [contact@example.com](mailto:contact@example.com).
